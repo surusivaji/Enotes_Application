@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+.header {
+	height: 70px;
+	background: #4C3BCF;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.header .logo {
+	display: flex;
+	color: white;
+	text-decoration: none;
+}
+
+.header .logo p {
+	font-size: 38px;
+	font-weight: 600;
+	padding: 0px 12px;
+}
+
+.header .logo p i {
+	padding-right: 3px;
+}
+
+.header .logo a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	padding-right: 10px;
+	position: relative;
+	top: 3px;
+	left: 5px;
+}
+
+.header .logo a i {
+	padding-right: 2px;
+}
+
+.header .logo a span {
+	position: relative;
+	top: 2px;
+}
+
+.buttons {
+	position: absolute;
+	right: 20px;
+}
+
+.buttons a input {
+	padding: 5px 13px;
+	background: #fff;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0 0 2px 2px #000;
+	cursor: pointer;
+}
+
+#signin {
+	position: relative;
+	left: 8px;
+}
+
+.summary img {
+	height: 620px;
+	width: 100%;
+}

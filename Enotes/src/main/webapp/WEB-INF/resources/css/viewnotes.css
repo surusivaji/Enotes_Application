@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Protest+Guerrilla&display=swap');
+
+#displayNotesHeading {
+	text-align: center;
+	font-family: "Bungee Tint", sans-serif;
+	text-shadow: 2px 1px #000;
+	font-size: 45px;
+	font-weight: 900;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-container .box-container {
+	margin-top: 15px;
+	height: 310px;
+	width: 800px;
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px #000;
+}
+
+.box-container .notes-logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.main-container .box-container #title {
+	padding: 10px;
+	font-size: 15px;
+	color: #573391;
+	font-weight: bold;
+	text-align: justify;
+}
+
+#title span {
+	color: #C21010;
+	font-size: 18px
+}
+
+.main-container .box-container #description {
+	padding: 0px 10px 10px 10px;
+	text-align: justify;
+	height: 90px;
+	width: 790px;
+	margin-left: 3px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-size: 15px;
+}
+
+#description::-webkit-scrollbar {
+	width: 10px;
+}
+
+#description::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+#description::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+#description::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+#description-hceading, #date-heading {
+	color: #C21010;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+#date-heading {
+	padding-top: 10px;
+}
+
+#date-heading span {
+	font-size: 15px;
+	font-weight: normal;
+	color: #ED3EF7;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	height: 30px;
+	width: 100px;
+	font-size: 15px;
+	outline: none;
+	margin: 0px 5px;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px #000;
+}
+
+#edit {
+	background: #00712D;
+}
+
+#remove {
+	background: #FF0000;
+}
+
+#updationSuccess {
+	font-size: 18px;
+	text-align: center;
+	color: green;
+	font-weight: bold;
+}
+
+#updationFailed {
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+#deleteMessage {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: orange;
+}
