@@ -151,15 +151,3 @@
 
 <hr>
 
-<h2 align="center">😊 A Happy Message for You!</h2>
-
-<p>
-  🎉 Thank you for checking out the <strong>eNotes Application</strong> repository! We’re thrilled to have you here! 🎉
-</p>
-
-<p>
-  Whether you’re looking to use the app, learn from the code, or contribute to its development, we hope you find this journey enjoyable and rewarding. <br>
-  Remember, every piece of code you write and every feature you explore brings you closer to becoming an even better developer. So dive in, have fun, and happy coding! 💻🌟
-</p>
-
-<hr>
