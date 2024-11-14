@@ -1,160 +1,165 @@
-<h1 align="center">📝 eNotes Application</h1>
+<h1 align="center">📝 ENotes Application</h1>
 
-<p align="center">
-  <strong>eNotes Application</strong> is a feature-rich note-taking and user management system designed with 
+<p>
+  <strong>ENotes Application</strong> is a feature-rich note-taking and user management system built using 
   <strong>Spring MVC</strong>, <strong>Spring Data JPA</strong>, <strong>HTML</strong>, <strong>CSS</strong>, 
-  and <strong>JavaScript</strong>. Users can easily manage their notes and account details through this application.
+  and <strong>JavaScript</strong>. This application empowers users to easily manage their notes and account details.
 </p>
 
 <hr>
 
 <h2 align="center">📌 Key Features</h2>
-<ul>
-    <li>🔐 <strong>User Registration & Login</strong>: Easy account creation and secure login process.</li>
-    <li>🔑 <strong>Password Recovery</strong>: Password reset using mobile and email verification.</li>
-    <li>🗒️ <strong>Notes Management</strong>: Add, update, and delete notes to organize information.</li>
-    <li>👤 <strong>User Profile Management</strong>: View, update, and delete user profile information.</li>
+<p>
+  The application provides users with powerful tools for note-taking and account management:
+</p>
+
+<div>
+  <ul>
+    <li>🔐 <strong>User Registration & Login</strong>: Easy and secure account creation and login process.</li>
+    <li>🔑 <strong>Password Recovery</strong>: Reset passwords with email and mobile number verification.</li>
+    <li>🗒️ <strong>Notes Management</strong>: Organize information by adding, updating, and deleting notes.</li>
+    <li>👤 <strong>User Profile Management</strong>: View, update, and delete profile information.</li>
     <li>💻 <strong>JavaScript Validations</strong>: Ensures data integrity across all forms.</li>
-    <li>🔄 <strong>Servlet Chaining</strong>: Improved session control through <code>redirect method</code>.</li>
-</ul>
+    <li>🔄 <strong>Servlet Chaining</strong>: Enhanced session control through <code>sendRedirect</code> for redirections.</li>
+  </ul>
+</div>
 
 <hr>
 
 <h2 align="center">🏗️ Project Architecture</h2>
-<p>The application is organized in a <strong>four-layer architecture</strong> for clean and efficient code management.</p>
+<p>
+  Built using a clean and maintainable <strong>four-layer architecture</strong> for optimal code organization.
+</p>
 
-<h3>1. Model Layer</h3>
-<p>This layer includes entity classes representing database tables:</p>
-<ul>
-    <li><strong>User Entity</strong>: Contains fields for storing user details.</li>
-    <li><strong>Notes Entity</strong>: Stores individual notes with a <strong>Many-to-One relationship</strong> with users.</li>
-</ul>
+<div>
+  <h3>1. Model Layer</h3>
+  <p>Contains entity classes representing the database tables:</p>
+  <ul>
+    <li><strong>User Entity</strong>: Stores user details.</li>
+    <li><strong>Notes Entity</strong>: Stores individual notes, with a <strong>Many-to-One</strong> relationship to users.</li>
+  </ul>
 
-<h3>2. Controller Layer</h3>
-<p>Manages <strong>URL mappings</strong>, directs to specific JSP pages, and handles HTTP requests and responses.</p>
+  <h3>2. Controller Layer</h3>
+  <p>Handles <strong>URL mappings</strong>, routes to JSP pages, and manages HTTP requests and responses.</p>
 
-<h3>3. Service Layer</h3>
-<p>Executes business logic for the application's core functionalities, like managing user and note operations.</p>
+  <h3>3. Service Layer</h3>
+  <p>Processes core business logic, including operations for managing users and notes.</p>
 
-<h3>4. Repository Layer</h3>
-<p>Includes repository interfaces for interacting with the database to perform CRUD operations on entities.</p>
+  <h3>4. Repository Layer</h3>
+  <p>Defines repository interfaces for CRUD operations on database entities.</p>
+</div>
 
 <hr>
 
 <h2 align="center">🚀 Core Functionalities</h2>
-<ul>
-    <li>🔐 <strong>User Registration</strong>: Create a new user account with basic details.</li>
-    <li>🔑 <strong>User Login</strong>: Login securely to access the application.</li>
-    <li>❓ <strong>Forgot Password</strong>: Reset password using mobile number and email validation.</li>
-    <li>🗒️ <strong>Add Notes</strong>: Add new notes for keeping track of tasks or information.</li>
-    <li>✏️ <strong>Update Notes</strong>: Modify existing notes to keep information up-to-date.</li>
-    <li>❌ <strong>Delete Notes</strong>: Remove notes that are no longer needed.</li>
-    <li>👤 <strong>View Profile</strong>: View personal information after logging in.</li>
-    <li>✏️ <strong>Update Profile</strong>: Update personal information to keep it current.</li>
-    <li>🗑️ <strong>Delete Account</strong>: Permanently delete the user account if no longer needed.</li>
-</ul>
+
+<div>
+  <ul>
+    <li>🔐 <strong>User Registration</strong>: Create accounts with basic user details.</li>
+    <li>🔑 <strong>User Login</strong>: Securely access the application.</li>
+    <li>❓ <strong>Forgot Password</strong>: Reset passwords using mobile and email validation.</li>
+    <li>🗒️ <strong>Add Notes</strong>: Easily add notes for personal organization.</li>
+    <li>✏️ <strong>Update Notes</strong>: Modify existing notes as needed.</li>
+    <li>❌ <strong>Delete Notes</strong>: Remove notes that are no longer relevant.</li>
+    <li>👤 <strong>View Profile</strong>: View personal information after login.</li>
+    <li>✏️ <strong>Update Profile</strong>: Update profile information to keep it current.</li>
+    <li>🗑️ <strong>Delete Account</strong>: Permanently delete accounts if desired.</li>
+  </ul>
+</div>
 
 <hr>
 
 <h2 align="center">⚙️ Technology Stack</h2>
-<ul>
+<div>
+  <ul>
     <li><strong>Backend</strong>: Spring MVC, Spring Data JPA</li>
     <li><strong>Frontend</strong>: HTML, CSS, JavaScript</li>
-    <li><strong>Session Management</strong>: Java Session objects to provide dynamic feedback to users</li>
-</ul>
+     <li><strong>Database</strong>: MySql</li>
+    <li><strong>Session Management</strong>: Java session objects for dynamic user feedback</li>
+  </ul>
+</div>
 
 <hr>
 
 <h2 align="center">📷 Screenshots</h2>
-<p>Here are some screenshots showcasing the key functionalities of the <strong>eNotes Application</strong>:</p>
-
 <div align="center">
-    <p><img src="index.png" alt="index Screenshot"></p>
+  <div>
+    <img src="index.png" alt="Index Page" width="60%">
     <p>Index Page</p>
-</div>
+  </div>
 
-<div align="center">
-    <p><img src="signup.png" alt="signup Screenshot"></p>
+  <div>
+    <img src="signup.png" alt="Registration" width="60%">
     <p>Registration</p>
-</div>
+  </div>
 
-<div align="center">
-    <p><img src="signin.png" alt="signin"></p>
+  <div>
+    <img src="signin.png" alt="Login" width="60%">
     <p>Login</p>
-</div>
+  </div>
 
-<div align="center">
-    <p><img src="forgotpassword.png" alt="forgotpassword"></p>
-    <p>forgot password</p>
-</div>
+  <div>
+    <img src="forgotpassword.png" alt="Forgot Password" width="60%">
+    <p>Forgot Password</p>
+  </div>
 
-<div align="center">
-    <p><img src="forgotpassword1.png" alt="forgotpassword1"></p>
-    <p>forgot password1</p>
-</div>
+  <div>
+    <img src="forgotpassword1.png" alt="Forgot Password Verification" width="60%">
+    <p>Forgot Password Verification</p>
+  </div>
 
-<div align="center">
-    <p><img src="home.png" alt="home"></p>
-    <p>forgot password</p>
-</div>
+  <div>
+    <img src="home.png" alt="Home" width="60%">
+    <p>Home Page</p>
+  </div>
 
-<div align="center">
-    <p><img src="addnotes.png" alt="addnotes"></p>
-    <p>add notes</p>
-</div>
+  <div>
+    <img src="addnotes.png" alt="Add Notes" width="60%">
+    <p>Add Notes</p>
+  </div>
 
-<div align="center">
-    <p><img src="viewnotes.png" alt="viewnotes"></p>
-    <p>view notes</p>
-</div>
+  <div>
+    <img src="viewnotes.png" alt="View Notes" width="60%">
+    <p>View Notes</p>
+  </div>
 
-<div align="center">
-    <p><img src="updatenotes.png" alt="updatenotes"></p>
-    <p>edit notes</p>
-</div>
+  <div>
+    <img src="updatenotes.png" alt="Update Notes" width="60%">
+    <p>Update Notes</p>
+  </div>
 
-<div align="center">
-    <p><img src="viewprofile.png" alt="viewprofile"></p>
-    <p>viewprofile</p>
-</div>
+  <div>
+    <img src="viewprofile.png" alt="View Profile" width="60%">
+    <p>View Profile</p>
+  </div>
 
-<div align="center">
-    <p><img src="updateprofile.png" alt="updateprofile"></p>
-    <p>update profile</p>
-</div>
+  <div>
+    <img src="updateprofile.png" alt="Update Profile" width="60%">
+    <p>Update Profile</p>
+  </div>
 
-<div align="center">
-    <p><img src="deleteaccount.png" alt="deleteaccount"></p>
-    <p>delete account</p>
-</div>
+  <div>
+    <img src="deleteaccount.png" alt="Delete Account" width="60%">
+    <p>Delete Account</p>
+  </div>
 
-<div align="center">
-    <p><img src="logout.png" alt="logout"></p>
-    <p>logout</p>
+  <div>
+    <img src="logout.png" alt="Logout" width="60%">
+    <p>Logout</p>
+  </div>
 </div>
 
 <hr>
 
-<h2 align="center">📂 Getting Started</h2>
-<p>Follow these steps to set up the application on your local machine:</p>
-<ol>
-    <li>Clone the repository:</li>
-    <pre><code>git clone https://github.com/yourusername/enotes-application.git</code></pre>
-    <li>Navigate to the project directory:</li>
-    <pre><code>cd enotes-application</code></pre>
-    <li>Build the project using Maven:</li>
-    <pre><code>mvn clean install</code></pre>
-    <li>Run the application:</li>
-    <pre><code>mvn spring-boot:run</code></pre>
-    <li>Access the application at <code>http://localhost:8080</code></li>
-</ol>
+<h2 align="center">😊 A Happy Message for You!</h2>
+
+<p>
+  🎉 Thank you for checking out the <strong>eNotes Application</strong> repository! We’re thrilled to have you here! 🎉
+</p>
+
+<p>
+  Whether you’re looking to use the app, learn from the code, or contribute to its development, we hope you find this journey enjoyable and rewarding. <br>
+  Remember, every piece of code you write and every feature you explore brings you closer to becoming an even better developer. So dive in, have fun, and happy coding! 💻🌟
+</p>
 
 <hr>
-
-<h2 align="center">📄 License</h2>
-<p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
-
-<hr>
-
-<h2 align="center">🤝 Contributing</h2>
-<p>Contributions are welcome! Please fork this repository and submit a pull request for any improvements.</p>
