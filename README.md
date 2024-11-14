@@ -67,29 +67,71 @@
 
 <h2 align="center">📷 Screenshots</h2>
 <p>Here are some screenshots showcasing the key functionalities of the <strong>eNotes Application</strong>:</p>
-<ul>
-    <li><strong>Login Page</strong>: Secure login interface for user authentication.</li>
-    <li><strong>Dashboard</strong>: Overview of notes and quick access to features.</li>
-    <li><strong>Note Management</strong>: Interface for adding, updating, and deleting notes.</li>
-    <li><strong>User Profile</strong>: View and update personal details.</li>
-</ul>
 
-<p align="center">
-    <img src="path/to/login-page-screenshot.png" alt="Login Page Screenshot" width="500px">
-    <br>Login Page
-</p>
-<p align="center">
-    <img src="path/to/dashboard-screenshot.png" alt="Dashboard Screenshot" width="500px">
-    <br>Dashboard
-</p>
-<p align="center">
-    <img src="path/to/note-management-screenshot.png" alt="Note Management Screenshot" width="500px">
-    <br>Note Management
-</p>
-<p align="center">
-    <img src="path/to/profile-screenshot.png" alt="Profile Screenshot" width="500px">
-    <br>User Profile
-</p>
+<div align="center">
+    <p><img src="index.png" alt="index Screenshot"></p>
+    <p>Index Page</p>
+</div>
+
+<div align="center">
+    <p><img src="signup.png" alt="signup Screenshot"></p>
+    <p>Registration</p>
+</div>
+
+<div align="center">
+    <p><img src="signin.png" alt="signin"></p>
+    <p>Login</p>
+</div>
+
+<div align="center">
+    <p><img src="forgotpassword.png" alt="forgotpassword"></p>
+    <p>forgot password</p>
+</div>
+
+<div align="center">
+    <p><img src="forgotpassword1.png" alt="forgotpassword1"></p>
+    <p>forgot password1</p>
+</div>
+
+<div align="center">
+    <p><img src="home.png" alt="home"></p>
+    <p>forgot password</p>
+</div>
+
+<div align="center">
+    <p><img src="addnotes.png" alt="addnotes"></p>
+    <p>add notes</p>
+</div>
+
+<div align="center">
+    <p><img src="viewnotes.png" alt="viewnotes"></p>
+    <p>view notes</p>
+</div>
+
+<div align="center">
+    <p><img src="updatenotes.png" alt="updatenotes"></p>
+    <p>edit notes</p>
+</div>
+
+<div align="center">
+    <p><img src="viewprofile.png" alt="viewprofile"></p>
+    <p>viewprofile</p>
+</div>
+
+<div align="center">
+    <p><img src="updateprofile.png" alt="updateprofile"></p>
+    <p>update profile</p>
+</div>
+
+<div align="center">
+    <p><img src="deleteaccount.png" alt="deleteaccount"></p>
+    <p>delete account</p>
+</div>
+
+<div align="center">
+    <p><img src="logout.png" alt="logout"></p>
+    <p>logout</p>
+</div>
 
 <hr>
 
