@@ -73,7 +73,7 @@
 <div>
   <ul>
     <li><strong>Backend</strong>: Spring MVC, Spring Data JPA</li>
-    <li><strong>Frontend</strong>: HTML, CSS, JavaScript</li>
+    <li><strong>Frontend</strong>: JSP, CSS, JavaScript</li>
      <li><strong>Database</strong>: MySql</li>
     <li><strong>Session Management</strong>: Java session objects for dynamic user feedback</li>
   </ul>
